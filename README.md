@@ -29,3 +29,4 @@ Sources:
 * http://www.cplusplus.com/doc/tutorial/exceptions/
 * http://www.cplusplus.com/reference/string/string/find/
 * http://www.cplusplus.com/doc/oldtutorial/templates/
+* http://www.cplusplus.com/doc/tutorial/files/
