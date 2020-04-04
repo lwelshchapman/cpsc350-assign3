@@ -1,0 +1,33 @@
+// Correct syntax:
+
+int example(int *intArray) {
+	
+	string test = "Test!";
+	
+	for(int i = 0; i < test.size(); ++i) {
+	
+		cout << intArray[i] << endl;
+		cout << test[intArray[i]] << endl;
+		
+	}
+	
+	return 0;
+}
+
+
+
+// Incorrect syntax:
+
+int example(int *intArray) {
+	
+	string test = "Test!";
+	
+	for(int i = 0; i < test.size(); ++i) {
+	
+		cout << intArray[i << endl;	// Missing a closed square bracket.
+		cout << test[intArray[i]] << endl;
+		
+	}
+	
+	return 0;
+	// Missing a closing curly bracket.
